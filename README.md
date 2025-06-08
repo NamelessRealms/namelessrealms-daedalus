@@ -1,12 +1,28 @@
-# Daedalus 
+# Daedalus
 
-Daedalus is a powerful tool which queries and generates metadata for the Minecraft (and other games in the future!) game
-and mod loaders for:
-- Performance (Serving static files can be easily cached and is extremely quick)
-- Ease for Launcher Devs (Metadata is served in an easy to query and use format)
-- Reliability (Provides a versioning system which ensures no breakage with updates)
+**Daedalus** 是一個功能強大的工具，可用於查詢並生成 Minecraft（以及未來其他遊戲）的遊戲與模組載入器的元資料，目標在於：
 
-Daedalus is currently a work in progress, but will support the original Minecraft data and reposting for all Forge and 
-Fabric artifacts.
+- ⚡ **效能**：提供靜態檔案服務，容易快取，速度極快
+- 🛠️ **方便啟動器開發者**：以簡潔、易查詢的格式提供元資料
+- 🔒 **可靠性**：內建版本控制系統，確保更新時不會導致相容性問題
 
-Once Daedalus is done, Modrinth will provide full documentation for how to query from it and use it for your own launcher!
+---
+
+## 🚧 開發進度
+
+Daedalus 目前仍在開發階段，最終將支援：
+
+- 原版 Minecraft 資料
+- 所有 Forge 與 Fabric 元件的重新發佈（reposting）
+
+---
+
+## 📚 文件與整合
+
+當 Daedalus 完成後，Modrinth 將會提供完整文件，說明如何使用 Daedalus 進行查詢，並整合到你自製的啟動器中。
+
+---
+
+## 📄 授權
+
+本專案採用 MIT 授權條款。
